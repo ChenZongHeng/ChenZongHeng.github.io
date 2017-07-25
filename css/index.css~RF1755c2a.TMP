@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* 最外层 */
+.wrap {
+	width: 100%;
+	max-width: 7.5rem;
+	font-size: .28rem;
+	margin: 0 auto;
+	color: #2E2E2E;
+}
+/* 顶部banner */
+.banner {
+	width: 100%;
+	max-height: 4.20rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner img {
+	width: 100%;
+	display: block;
+}
+.banner button {
+	width: 1.98rem;
+	height: .5em;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,.5);
+	border: 1px solid #A8A59E;
+	position: absolute;
+	right: .1rem;
+	bottom: .1rem;
+}
+/* 版心 */
+.inner {
+	width: 93%;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 0.2rem;
+}
+.inner h2 {
+	font-weight: 700;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: .34rem;
+	border-left: 0.05rem solid #2E2E2E;
+	padding-left: 10px;
+}
+/* 风格分析 */
+.style-content >div {
+	float: left;
+	width: 50%;
+	margin-top: .35em;
+}
+.style-content .left {
+	word-wrap: break-all;
+	text-indent: 2em;
+	line-height: 0.4rem;
+}
+.style-content .right {
+	padding-left: 0.2rem;
+}
+.style-content .right li {
+	display: flex;
+	display: -webkit-flex;
+}
+.style-content .right li:nth-child(2){
+	margin-top: .30rem;
+}
+.style-content .right li > div:nth-child(1){
+	width: .6rem;
+	height: .6rem;
+}
+.style-content .right li > div:nth-child(1) img{
+	width: .6rem;
+}
+.style-content .right li > div:nth-child(2){
+	flex:1;
+	padding-left: .14rem;
+}
+.style-content .right li > div:nth-child(2) p{
+	font-size: .2rem;
+	color: #535353;
+	font-weight: 700;
+}
+.style-content .right li > div:nth-child(2) div {
+	margin-top: .1rem;
+	font-size: .24rem;
+	line-height: .4rem;
+}
+.style-analyze .style-banner {
+	max-height: 4.80rem;
+	overflow: hidden;
+	margin-top: .1rem;
+}
+.style-analyze .style-banner img{
+	width: 100%;
+}
+/* 空间布局 */
+.inner .space-arrange{
+	margin-top: .12rem;
+	padding-bottom: .4rem;
+	border-bottom: .02rem dashed #333333;
+}
+.inner .space-arrange .space-banner {
+	margin-top: .1rem;
+}
+.inner .space-arrange .space-banner img{
+	width: 100%;
+}
+.space-arrange .text-introduce {
+	position: relative;
+	line-height: .4rem;
+	margin-top: .3rem;
+}
+.space-arrange .text-introduce >div {
+	position: absolute;
+	width: .23rem;
+	height: .23rem;
+	top: .1rem;
+	left: .1rem;
+	border-radius: 50%;
+	box-shadow: 0 0 .1rem #ccc;
+	text-align: center;
+}
+.space-arrange .text-introduce >div span{
+	position: absolute;
+	width: .15rem;
+	height: .15rem;
+	border-radius: 50%;
+	background-color: #53ADE2;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.space-arrange .text-introduce >p {
+	padding-left: .5rem;
+}
+.space-arrange .text-introduce span.c2 {
+	background-color: #DF5C52;
+}
+.space-arrange .text-introduce span.c3 {
+	background-color: #FFC104;
+}
+.space-arrange .text-introduce span.c4 {
+	background-color: #E95DEE;
+}
+.space-arrange .text-introduce span.c5 {
+	background-color: #6D433A;
+}
+/* 商品链接 */
+.inner .product-link {
+	margin-top: .12rem;
+}
+.inner .product-link >div {
+	background-color: #E6E6E6;
+	margin-bottom: .2rem;
+}
+.inner .product-link >div {
+	overflow: hidden;
+	max-height: 1.8rem;
+}
+.inner .product-link >div a{
+	display: flex;
+	color: #051922;
+}
+.inner .product-link >div a >div:nth-child(1) {
+	width: 1.8rem;
+}
+.inner .product-link >div a >div:nth-child(2) {
+	flex:1;
+	padding-left: .5rem;
+}
+.inner .product-link >div img {
+	display: block;
+	width: 100%;
+}
+.inner .product-link >div a >div:nth-child(2) p{
+	margin-top: .3rem;
+	font-size: .28rem;
+	line-height: .38rem;
+}
+.inner .product-link >div a >div:nth-child(2) span{
+	color: #E40605;
+	font-size: .22rem;
+	margin-top: .25rem;
+	display: block;
+}
+/* 到底部提示 */
+.inner .bottom-message {
+	height: 1.55rem;
+	text-align: center;
+	line-height: 1.55rem;
+}
