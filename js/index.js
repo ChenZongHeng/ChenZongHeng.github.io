@@ -22,6 +22,6 @@
 window.onload = function(){
 	var iscroll = new IScroll('#wrap', {
 		scrollY: true,
-		preventDefault:false
+		preventDefault:true
 	});
 }
