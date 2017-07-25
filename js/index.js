@@ -19,7 +19,3 @@
 		document.documentElement.style.fontSize = fontValue + '%';
 	}
 })();
-// var iscroll = new IScroll('#wrap', {
-// 	scrollY: true,
-// 	preventDefault: false
-// });
